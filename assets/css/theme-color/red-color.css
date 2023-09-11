@@ -1,0 +1,22 @@
+:root{
+    /* --scroll-bg-1:#dc3545;
+    --scroll-bg-2:#b31323;
+    --top-header-bg:#2c3f44;
+    --sidenav-bg-1:#dc3545;
+    --sidenav-bg-2:rgba(0,0,0,0.7);
+    --sidebar-icon-color:rgba(255, 255, 255, 0.5);
+    --sidebar-label-color:rgba(255, 255, 255, 0.5);
+    --all-label:#dc3545; */
+    --scroll-bg-1:#e00024;
+    --scroll-bg-2:#bb0523;
+    --top-header-bg:#2c3f44;
+    --sidenav-bg-1:#e00024;
+    --sidenav-bg-2:#920920;
+    --sidebar-icon-color:#fbfbfb;
+    --sidebar-label-color:#fbfbfb;
+    --label-standered:#545454;
+    --label-theme:#b61731;
+    --theme-body-bg:rgb(224 0 36 / 20%);
+    --theme-light-color-1:#fa8ea0;
+    --theme-light-color-2:#fc4967;
+}

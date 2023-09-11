@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/sites_styles.css">
+    <link rel="stylesheet" href="assets/css/theme-color/color.css">
+    <title>--WUA Login--</title>
+    <style>
+        .login-box{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            transform: skew(10deg);
+            align-items: center;
+            flex-direction: column;
+        }
+        .l-logo-h{
+            display: none;
+        }
+        .log-box{
+            width: 80%;transform: skew(-10deg);margin: auto;
+        }
+        @media (max-width:575px){
+            .div-h{
+                display: none;
+            }
+            .l-logo-h{
+            display: block;
+        }
+        .login-box{
+            transform: skew(0deg);
+        }
+        .log-box{
+            width: 80%;transform: skew(0deg);margin: auto;
+        }
+        }
+    </style>
+</head>
+<body class="" style="background-color: #00A0E3;">
+    <div class="container" style="height: 100vh;">
+        <div class="row h-100">
+             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 align-self-center div-h"  style="height: 85%;">
+                <div class="bg-light login-box rounded-3" style="height: 100%;">
+                <img src="./assets/images/login-logo.png" alt="Login Logo" style="width: 65%;transform: skew(-10deg);">
+                </div>
+                
+             </div>
+             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 align-self-center "  style="height: 85%;">
+                <div class="bg-light login-box rounded-3" style="height: 100%;">
+                    <div class="log-box">
+                        <img class="l-logo-h" src="./assets/images/login-logo.png" alt="Login Logo" style="width: 40%;transform: skew(0deg);margin: auto;">
+                    <h4 class="text-dark mb-0">Sign In</h4>
+                    <small class="text-primary">Sign in Please sign in to start your session</small>
+                    <form action="dashboard.html" class="was-validated">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="email" placeholder="Enter UserName" name="email" required>
+                        <label for="email">userName</label>
+                      </div>
+                      
+                      <div class="form-floating mt-3 mb-3">
+                        <input type="password" class="form-control" minlength="6" maxlength="56" id="pwd" placeholder="Enter password" name="pswd" required>
+                        <label for="pwd">Password</label>
+                      </div>
+                      <div class="form-check mb-3">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                        </label>
+                        <a href="#" class="float-end">Forgot Password</a>
+                      </div>
+                      <div class="mt-5 mb-3 text-center">
+                      <button type="submit" class="btn btn-success text-center w-50 rounded-5">Sign In <i class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                    </form>
+                </div>
+                </div>
+                
+             </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-12 align-self-center bg-light d-none" style="height: 85%;">
+                <div class="card-new text-center">
+                    <img src="assets/images/site_logo.png" style="height: 75px;">
+                    <form action="dashboard.html" class="was-validated">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                        <label for="email">Email</label>
+                      </div>
+                      
+                      <div class="form-floating mt-3 mb-3">
+                        <input type="password" class="form-control" minlength="6" maxlength="56" id="pwd" placeholder="Enter password" name="pswd" required>
+                        <label for="pwd">Password</label>
+                      </div>
+                      <div class="form-check mb-3">
+                        <label class="form-check-label text-white">
+                          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-primary rounded-5">Submit <i class="fa-solid fa-arrow-right-long"></i></button>
+                      <!-- <a href="index.html" class="btn btn-primary rounded-5">Submit <i class="fa-solid fa-arrow-right-long"></i></a> -->
+                    </form>
+                    </div>
+            </div>
+        </div>
+     
+    </div>
+    <!-- <div class="container-fluid d-flex justify-content-end align-items-center" style="height:100vh; overflow:hidden;">
+
+        <div class="row text-center d-flex align-items-center w-100">
+        
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-12 offset-xxl-6 offset-xl-6 offset-lg-6 offset-md-4 offset-sm-0">
+            <div class="card">sx</div>
+        </div>
+        
+        </div> 
+        </div> -->
+   <!-- <div class="container-fluid">
+    <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-12 offset-xxl-6 offset-xl-6 offset-lg-6 offset-md-4 offset-sm-0">
+            <div class="card">sx</div>
+        </div>
+    </div>
+   </div> -->
+    <!-- JAI MAA  -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/all.min.js"></script>
+</body>
+
+</html>

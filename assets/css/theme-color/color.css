@@ -1,0 +1,14 @@
+:root{
+    --scroll-bg-1:#39c2dd;
+    --scroll-bg-2:#179bb6;
+    --top-header-bg:#2c3f44;
+    --sidenav-bg-1:#39c2dd;
+    --sidenav-bg-2:#20c997;
+    --sidebar-icon-color:#fbfbfb;
+    --sidebar-label-color:#fbfbfb;
+    --label-standered:#545454;
+    --label-theme:#179bb6;
+    --theme-body-bg:rgb(45 198 188 / 20%);
+    --theme-light-color-1:#ccf7ff;
+    --theme-light-color-2:#92ffdf;
+}
